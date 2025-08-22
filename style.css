@@ -7,6 +7,7 @@
 
 html{
     font-size:16px;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -43,7 +44,7 @@ body{
     color:#7b7575;
     text-transform:uppercase;
     float:left;
-    margin-left:5rem;
+    margin-left:8rem;
 }
 
 
@@ -151,7 +152,7 @@ body{
     text-decoration-line:underline;
     font-size:10rem;
     text-align:center;
-    margin-bottom:10rem;
+    margin-bottom:5rem;
     
 }
 
@@ -285,13 +286,14 @@ margin-bottom:10rem;
     font-size:4rem;
     font-weight:bold;
     border-radius:1rem;
-    background-color: #2563eb;
+    background-color: rgb(38, 56, 56);
     color:white;
     margin-top:3rem;
     text-transform:uppercase;
     float:right;
     margin-right:10rem;
     cursor: pointer;
+    margin-top:8rem;
 
 }
 
@@ -309,32 +311,37 @@ margin-bottom:10rem;
 /*Contact Box Section*/
 #contact-form-container{
     display:flex;
-    height:100rem;
-    
     justify-content: center;
+    align-items: center;
+ 
+   
+    padding-left:2rem;
+    width:60%;
+    box-sizing: border-box;
+    height:140rem;
+    margin:auto;
+    margin-bottom:40rem;
+    margin-top:20rem;
 }
 #contact-container{
-    margin-left:30px;
-    background-color: rgb(92, 83, 83);
+    display: flex;
+  justify-content: center;
+    align-items: center;
+    background-color: rgb(51, 48, 48);
     border:20px solid black;
-    width:180rem;
-    height:120rem;
-    border-radius:50px;
-    margin-top:2.5rem;
+   width:100%;
     
 }
-
 #contact-header{
-    color:rgb(174, 154, 154);
-    font-size:8rem;
-    margin-bottom:1rem;
-    display: flex;
-    width:100rem;
-    margin-left:15rem;
-    margin-top:5rem;
+    margin-bottom:8rem;
+}
+
+
+#contact-sub-header{
     text-align:center;
-    text-transform: uppercase;
-    justify-content: center;
+    font-size:5rem;
+    margin-bottom:30rem;
+     color: rgb(174, 154, 154);
 }
 
 
@@ -342,9 +349,13 @@ margin-bottom:10rem;
 #contact-form{
     
     display:flex;
+    flex-direction:column;
     justify-content: center;
+    
     width:100%;
-    height:80rem;
+    height:100%;
+    padding: 5rem;
+    
 }
 
 
@@ -366,21 +377,34 @@ form{
     justify-content: center;
     text-align:center;
     margin-bottom:3rem;
+    padding-top:3rem;
     border:3px solid black;
     border-radius:15px;
+    background-color: rgba(255,255,255,0.5);
 }
 
 .form-input-labels{
-    font-size:4rem;
-    text-align:center;
+    font-size:5rem;
+ 
     color:rgb(191, 191, 166);
     font-weight:bold;
+    margin-bottom:5rem;
+    gap:5rem;
+    
     
 }
 .form-input::placeholder{
-    font-size:3rem;
+    font-size:5rem;
+   
 }
 
+#input-container{
+    width:100%;
+    padding-left :2rem;
+    padding-top:2rem;
+    margin-top:2rem;
+    
+}
 #name-label{
     margin-right:5rem;
 }
@@ -389,35 +413,53 @@ form{
 }
 #message-label{
     margin-bottom:1rem;
-   
+   text-align:left;
 }
-#input-group{
-    display: flex;
-}
+
 #name{
-    width:40rem;
+    width:100rem;
     margin-right:10rem;
 }
 #email{
-    width:40rem;
+    width:100rem;
 }
 #message{
-    height:50rem;
-    width:90%;
+    height:100rem;
+    width:200rem;
+
 }
 
-#contact-submit-btn{
+#name::placeholder{
+padding-top:2rem;
+}
+
+#email::placeholder{
     padding-top:2rem;
-    border-radius:25px;
+}
+
+
+#contact-submit-btn{
+
+    border-radius:30px;
     font-size:4.5rem;
-    
-    color:rgb(0, 0, 0);
-    width:25rem;
-    height:10rem;
-    background:linear-gradient(rgb(217, 172, 48),rgb(228, 100, 100));
-    border:10px solid black;
-    
-    
+    text-align: center;
+    justify-content: center;
+  
+    color:black;
+    width:30rem;
+    height:12rem;
+    background-color: #7f8dac;
+    border:1px solid rgb(0, 0, 0);
+    margin-top:10rem;
+    float:right;
+    padding-top:2.8rem;
+    margin-right:20rem;
+    cursor:pointer;
+    font-weight: 400;
+}
+
+#contact-submit-btn:hover{
+    background-color:rgb(58, 58, 108);
 }
 
 /* Homepage (Footer Section) */
@@ -425,7 +467,7 @@ form{
     
     width: 100%;
     height:20rem;
-    background-color: rgb(52, 52, 61);
+      background-color: #0f120e;
     display:flex;
     justify-content: center;
     text-align:center;
@@ -435,9 +477,9 @@ form{
 
 #footer-text{
     font-size:4rem;
-    text-align:center;
-    justify-content: center;
+  
     margin-right:30px;
+   
     
 }
 
