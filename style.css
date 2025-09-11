@@ -11,7 +11,7 @@ html{
 }
 
 body{
-    background-color: #182434;
+    background-color: #182152;
     color:white;
     
 }
@@ -23,7 +23,7 @@ body{
 
 
 #nav-container{
-    background-color: #0f120e;
+    background-color: #182434;
     height:23rem;
     align-items:center;
     display:flex;
@@ -40,8 +40,8 @@ body{
 
 #logo{
     font-size:9rem;
-    font-weight:bold;
-    color:#7b7575;
+    font-weight:550;
+    color:#978d8d;
     text-transform:uppercase;
     float:left;
     margin-left:8rem;
@@ -90,7 +90,7 @@ body{
     align-items:center;
 }
 #header{
-    color:rgb(174, 154, 154);
+    color:rgb(204, 182, 182);
     margin-bottom:20px;
     font-size:20rem;
     font-family: "Lora", serif;
@@ -114,7 +114,8 @@ body{
 }
 
 #intro-text{
-    margin-top:60rem;
+    margin-top:80rem;
+    padding-top:10rem;
     
 }
 
@@ -153,6 +154,7 @@ body{
     font-size:10rem;
     text-align:center;
     margin-bottom:5rem;
+    color:rgb(255, 248, 249);
     
 }
 
@@ -171,9 +173,10 @@ margin-bottom:10rem;
 }
 
 .project-item-header{
-    font-size:8rem;
+    font-size:9rem;
     text-align:center;
     margin-top:4rem;
+    margin-bottom:4rem;
 }
 
 #projects{
@@ -192,6 +195,21 @@ margin-bottom:10rem;
     font-size:3rem;
     color:rgb(255, 255, 255);
     text-align:center;
+}
+
+#hero-tracker-text{
+    font-size:4rem;
+width:100rem;
+  margin-left:10rem;
+    font-weight: bold;
+    font-style: normal;
+    
+    margin-right:10rem;
+}
+
+#hero-tracker-img-card{
+margin-right:3rem;
+margin-left:3rem;
 }
 #contact{
     font-size:5rem;
@@ -267,29 +285,79 @@ margin-bottom:10rem;
 
 /*Project Section */
 
+.project-text{
+    float:left;
+    justify-content: left;
+    width:100rem;
+    color:black;
+    font-size:3.5rem;
+    font-weight:600;
+    padding-left:15rem;
+}
 
 .project-container{
     width: 80%;
     height:120rem;
-    background-color:rgb(11, 37, 37);
+    background-color:rgb(217, 109, 170);
     border:50px solid black;
     
     margin:auto;
     margin-bottom:20rem;
+    color:black;
 }
 
+.project-container-2{
+display: flex;
+flex-direction:row;
+}
+
+.project-card{
+    border:20px solid black;
+    margin:auto;
+    margin-top:3rem;
+    margin-bottom:2rem;
+}
+
+#meditation-now-img-card{
+    margin-left:3rem;
+    margin-right:3rem;
+    height:65rem;
+}
+
+#meditation-now-container{
+    height:93rem;
+}
+.project-card-container{
+    display:flex;
+    flex-direction:column;
+    border:20px solid black;
+    width:130rem;
+    margin-left:60rem;
+    height:90rem;
+    margin-right:5rem;
+}
+
+#urban-slice-container{
+    height:94rem;
+}
+
+#urban-slice-img-card{
+    height:62rem;
+    width:100rem;
+}
 
 .project-link-btn{
- border:1px solid black;
+ border:10px solid black;
     height:12rem;
     width:50rem;
     font-size:4rem;
     font-weight:bold;
-    border-radius:1rem;
+    border-radius:4rem;
     background-color: rgb(38, 56, 56);
-    color:white;
-    margin-top:3rem;
+    color:rgb(202, 230, 79);
+    
     text-transform:uppercase;
+    margin-right:10rem;
     float:right;
     margin-right:10rem;
     cursor: pointer;
@@ -300,7 +368,6 @@ margin-bottom:10rem;
 .project-link-btn:hover{
     background-color: rgb(58, 58, 108);
 }
-
 
 
 
@@ -383,6 +450,7 @@ form{
     background-color: rgba(255,255,255,0.5);
 }
 
+
 .form-input-labels{
     font-size:5rem;
  
@@ -390,6 +458,7 @@ form{
     font-weight:bold;
     margin-bottom:5rem;
     gap:5rem;
+    margin:auto;
     
     
 }
@@ -467,40 +536,55 @@ padding-top:2rem;
     
     width: 100%;
     height:20rem;
-      background-color: #0f120e;
+     background-color: #182434;
     display:flex;
     justify-content: center;
     text-align:center;
+    flex-direction: row;
+    border-top:5px solid black;
     
     
 }
 
+#footer-container{
+    display:flex;
+    justify-content: center;
+    flex-direction:row;
+    align-items: center;
+    gap:5rem;
+    margin-top:2rem;
+}
+
 #footer-text{
     font-size:4rem;
-  
-    margin-right:30px;
+   margin-top:3rem;
+   margin-bottom:3rem;
+    margin-right:2rem;
    
     
 }
 
 #linkedn-icon{
-    height:60px;
-    width:60px;
+    height:8rem;
+    width:8rem;
     background-color: white;
+        border-radius:10%;
 }
 
 #github-icon{
     
-    height:60px;
-    width:60px;
+    height:8rem;
+    width:8rem;
     background-color: white;
+    border-radius:10%;
     
 }
 
 #twitter-icon{
-    height:60px;
-    width:60px;
+    height:8rem;
+    width:8rem;
     background-color: white;
+        border-radius:10%;
 }
 
 .contact-badge{
