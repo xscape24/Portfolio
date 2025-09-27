@@ -141,6 +141,7 @@ body{
     margin-left:4rem;
     justify-content: center;
     align-items:center;
+    margin-bottom:8rem;
     
 }
 
@@ -190,16 +191,33 @@ margin-bottom:10rem;
     
 }
 
+#resume-btn{
+    height:14rem;
+    width:45rem;
+    border-radius:60px;
+    opacity: 0.5;
+}
+
+#resume-text{
+     font-size:5rem;
+     text-decoration-line: none;
+    color:black;
+
+}
 
 .project-text{
-    font-size:3rem;
+    font-size:5rem;
     color:rgb(255, 255, 255);
     text-align:center;
+    width:200rem;
+    
+    
+    
 }
 
 #hero-tracker-text{
-    font-size:4rem;
-width:100rem;
+    font-size:3.8rem;
+
   margin-left:10rem;
     font-weight: bold;
     font-style: normal;
@@ -309,6 +327,7 @@ margin-left:3rem;
 .project-container-2{
 display: flex;
 flex-direction:row;
+font-size:10rem;
 }
 
 .project-card{
@@ -321,11 +340,18 @@ flex-direction:row;
 #meditation-now-img-card{
     margin-left:3rem;
     margin-right:3rem;
-    height:65rem;
+    height:56rem;
 }
 
+
+
 #meditation-now-container{
-    height:93rem;
+    height:90rem;
+
+}
+
+#meditation-now-text{
+    font-size:4.2rem;
 }
 .project-card-container{
     display:flex;
@@ -337,14 +363,7 @@ flex-direction:row;
     margin-right:5rem;
 }
 
-#urban-slice-container{
-    height:94rem;
-}
-
-#urban-slice-img-card{
-    height:62rem;
-    width:100rem;
-}
+ 
 
 .project-link-btn{
  border:10px solid black;
@@ -383,7 +402,7 @@ flex-direction:row;
  
    
     padding-left:2rem;
-    width:60%;
+    width:70%;
     box-sizing: border-box;
     height:140rem;
     margin:auto;
@@ -395,19 +414,19 @@ flex-direction:row;
   justify-content: center;
     align-items: center;
     background-color: rgb(51, 48, 48);
-    border:20px solid black;
+    border:40px solid black;
    width:100%;
     
 }
 #contact-header{
-    margin-bottom:8rem;
+    margin-bottom:6rem;
 }
 
 
 #contact-sub-header{
     text-align:center;
     font-size:5rem;
-    margin-bottom:30rem;
+    margin-bottom:32rem;
      color: rgb(174, 154, 154);
 }
 
@@ -421,7 +440,7 @@ flex-direction:row;
     
     width:100%;
     height:100%;
-    padding: 5rem;
+    padding-top:0rem;
     
 }
 
@@ -443,6 +462,7 @@ form{
     display:flex;
     justify-content: center;
     text-align:center;
+    margin:auto;
     margin-bottom:3rem;
     padding-top:3rem;
     border:3px solid black;
@@ -452,14 +472,16 @@ form{
 
 
 .form-input-labels{
-    font-size:5rem;
+    font-size:8rem;
  
     color:rgb(191, 191, 166);
     font-weight:bold;
-    margin-bottom:5rem;
+    margin-bottom:8rem;
     gap:5rem;
     margin:auto;
-    
+    justify-content: center;
+    text-align: center;
+    display:flex;
     
 }
 .form-input::placeholder{
@@ -471,14 +493,18 @@ form{
     width:100%;
     padding-left :2rem;
     padding-top:2rem;
-    margin-top:2rem;
-    
+    margin-top:4rem;
+ 
 }
 #name-label{
     margin-right:5rem;
+    font-size:8rem;
+    margin-bottom:2rem;
+    margin-top: -2rem;
 }
 #email-label{
     margin-right:5rem;
+
 }
 #message-label{
     margin-bottom:1rem;
@@ -487,10 +513,12 @@ form{
 
 #name{
     width:100rem;
-    margin-right:10rem;
+    height:11rem;
+   
 }
 #email{
     width:100rem;
+    height:10rem;
 }
 #message{
     height:100rem;
@@ -509,22 +537,22 @@ padding-top:2rem;
 
 #contact-submit-btn{
 
-    border-radius:30px;
+    border-radius:35px;
     font-size:4.5rem;
-    text-align: center;
-    justify-content: center;
-  
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-stretch:expanded;
     color:black;
     width:30rem;
     height:12rem;
     background-color: #7f8dac;
     border:1px solid rgb(0, 0, 0);
-    margin-top:10rem;
-    float:right;
+    margin-top:7rem;
+  
     padding-top:2.8rem;
-    margin-right:20rem;
+    
+
     cursor:pointer;
-    font-weight: 400;
+  
 }
 
 #contact-submit-btn:hover{
