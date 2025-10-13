@@ -10,229 +10,281 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&family=Noto+Serif+Dives+Akuru&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    
     <div id="nav-container">
-        <a href="" class="nav-items" id="logo">Eben Nduwimana</a>
-        
-        
-        
+        <a href="" class="nav-items" id="logo">Eben Nduwimana</a>    
         <div id="nav-items-container">
-            <a href="#about-section" class="nav-items">About</a>
+            <a href="#about-me-section" class="nav-items">About</a>
             <a href="#projects-section" class="nav-items">Projects</a>
-            <a href="#contacts-section" class="nav-items">Contact</a>
-            
+            <a href="#contacts-section" class="nav-items" id="contact-nav-item">Contact</a>        
         </div>
-        
-        
     </div>
     
     
-    <div id="header-container">
-        <img src="assets\unnamed (1).jpg" id="profile-photo" alt="Photo of Eben Nduwimana">
+    <div id="header-section">
+        <div id="header-sub-container-1">
+<img src="assets\unnamed (1).jpg" id="profile-photo" alt="Photo of Eben Nduwimana"> 
+        </div>
         
-        <div id="intro-text ">
-            <h1 id="header">Eben Nduwimana</h1>
-            <h2 id="sub-header">Aspiring Full Stack Developer | Javascript, React, NodeJS
-            </h2>
+        <div id="header-sub-container-2">
+            <h1 id="header-text">Eben Nduwimana</h1>
+            <h2 id="subheader-text">Aspiring Full Stack Developer | Javascript, React, NodeJS </h2>
             <div id="cta-container"><!--Call to Action Container-->
-                <p id="projects">View My Projects <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-                </svg>
-            </p>
-            <p id="contact">Contact Me <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-            </svg>
-        </p>
-
-        
-        
-    </div>
-    <button id="resume-btn"><a id="resume-text" href="https://drive.google.com/file/d/1gw6Fx4W26uNQPak-fxEP-zZOk10jntgI/view?usp=sharing">View Resume</a> </button>
-</div> 
-</div>
-
-
-
-
-
-<section id="about-section">
-    <div id="about-me-container">
-        <h1 id="about-me-header" class="headings">About Me</h1>
-        <p id="main-section-text">
-            "I’m a senior CS student passionate about building interactive, user-friendly applications. I enjoy problem-solving, learning by building, and working with JavaScript, React, and Node.js. My goal is to create impactful software that makes life easier."
-        </p>
-    </div>
-    <div id="tech-badge-container">
-        <img src="assets\888859.png" alt="HTML logo" class="tech-badge" id="html-badge">
-        <img src="assets\919826.png" alt="CSS logo" class="tech-badge"  id="css-badge">
-        <img src="assets\5968292.png" alt="Javascript logo" class="tech-badge"  id="javscript-badge">
-        <img src="assets/icons8-github-30.png" alt="Git logo" class="tech-badge"  id="git-badge">
-        
-    </div>
-</section>
-
-<section id="projects-section">
-    <h1 class="headings" id="projects-header">Projects</h1>
-    <h2 id="projects-sub-header">Discover a range of projects I've crafted, including personal and client work, with each project featuring its own compelling case study.</h2>
-    
- 
-    
-    <div class="project-container">
-        <h1 class="project-item-header"> Meditation Now</h1>
-        
-        <div class="project-container-2">   
-            <p class="project-text" id="meditation-now-text">  
-                Meditation Now - A beginner-friendly website that helps
-                users start their meditation journey.<br><br>
-                
-                Technologies: HTML, CSS, JavaScript, Azure<br><br>
-                
-                What it does:<br>
-                
-                Suggests personalized meditation sessions through a quiz<br>
-                
-                Shows the history of meditation with interactive visuals<br>
-                
-                Explains the benefits of meditation for body, mind, and emotions<br>
-                
-                Easy navigation between homepage, about, and interactive sections<br>
-                
-                
-                Lessons Learned:<br>
-                
-                Learned how to create a smooth, engaging user experience and
-                deploy a live web app on Azure.</p>
-                
-                <div class="project-card-container" id="meditation-now-container">
-                    <img  class="project-card" id="meditation-now-img-card" src=" assets\Screenshot 2025-09-05 074948.png" alt="">
-                    <a href="https://lively-stone-0d52be41e.5.azurestaticapps.net/">
-                        <button class="project-link-btn">Visit Project</button>
-                    </a>
-                    
+                <div class="test">
+                     <p id="projects" >View My Projects </p>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                    </svg>
                 </div>
+                 <div class="test">
+                     <p id="contact" >Contact Me  </p>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                    </svg>
+                </div>
+               
+               
             </div>
-            
-            
-            
-            
-            
+            <button id="resume-btn"><a id="resume-text" href="https://drive.google.com/file/d/1X7y-otitQ79B7vEqDvjFXEMvR3yxxVPb/view?usp=sharing">View Resume</a> </button>
+        </div> 
+    </div>
+    
+    
+    
+    
+    
+    <section id="about-me-section">
+        <div id="about-me-container">
+            <h1 id="about-me-header" class="headings">About Me</h1>
+            <p  id="about-me-subheader" class="section-subheader">
+                "I’m a senior CS student passionate about building interactive, user-friendly applications. I enjoy problem-solving, learning by building, and working with JavaScript, React, and Node.js. My goal is to create impactful software that makes life easier."
+            </p>
+            <div id="tech-badge-container">
+            <img src="assets\888859.png" alt="HTML logo" class="tech-badge" id="html-badge">
+            <img src="assets\919826.png" alt="CSS logo" class="tech-badge"  id="css-badge">
+            <img src="assets\5968292.png" alt="Javascript logo" class="tech-badge"  id="javscript-badge">
+            <img src="assets/icons8-github-30.png" alt="Git logo" class="tech-badge"  id="git-badge">
+        </div>
         </div>
         
+    </section>
+    
+    
+    
+    <section id="projects-section">
+        <h1 class="headings" id="projects-header">Projects</h1>
+        <h2 id="projects-sub-header" class="section-subheader">Discover a range of projects I've crafted, including personal and client work, with each project featuring its own compelling case study.</h2>
+      
+      
+      
         <div class="project-container">
-            <h1 class="project-item-header"> Hero Tracker</h1>
-            
-            <div class="project-container-2">
-                <p class="project-text" id="hero-tracker-text">  
-                   Hero Tracker – A web application that helps users track and improve daily skills or habits.<br>
-Technologies: HTML, CSS, JavaScript, Git/GitHub<br>
-What it does:
-
-Allows users to add, edit, and manage tasks for personal growth and skill improvement<br>
-
-Provides a flexible interface for tracking progress across multiple activities<br>
-
-Features a responsive, multi-page layout (Home, Tracker, About) for smooth navigation on desktop and mobile devices<br>
-Lessons Learned:<br>
-
-Improved skills in structuring a multi-page web app with consistent layouts and shared styling<br>
-
-Strengthened ability to design responsive interfaces with clean containers, spacing, and interactive elements</p>
+            <h1 class="project-item-header"> Meditation Now</h1>
+            <div class="project-container-2">   
+                <p class="project-text" id="meditation-now-text">  
+                    Meditation Now - A beginner-friendly website that helps
+                    users start their meditation journey.<br><br>
+                    
+                    Technologies: HTML, CSS, JavaScript, Azure<br><br>
+                    
+                    What it does:<br>
+                    
+                    Suggests personalized meditation sessions through a quiz<br>
+                    
+                    Shows the history of meditation with interactive visuals<br>
+                    
+                    Explains the benefits of meditation for body, mind, and emotions<br>
+                    
+                    Easy navigation between homepage, about, and interactive sections<br>
                     
                     
-                    <div class="project-card-container">
-                        
-                        <img  class="project-card" id="hero-tracker-img-card" src="assets\Screenshot 2025-09-05 074908.png" alt="">
-                        <a href="https://xscape24.github.io/HeroTracker/">
+                    Lessons Learned:<br>
+                    
+                    Learned how to create a smooth, engaging user experience <br> and
+                    deploy a live web app on Azure.</p>
+                    
+                    <div class="project-card-container"><!--Image Card-->
+                        <img  class="project-card" id="meditation-now-img" src=" assets\Screenshot 2025-09-05 074948.png" alt="">
+                        <a href="https://lively-stone-0d52be41e.5.azurestaticapps.net/">
                             <button class="project-link-btn">Visit Project</button>
                         </a>
                         
                     </div>
-                </div>
-                
-                
-                
+                </div>   
             </div>
             
-           
-        
-        
-        
-        
-        
-
-            
-        </section>
-        <section id="contacts-section">
-            <h1 class="headings" id="contact-header">Contact</h1>
-            <h2 id="contact-sub-header">Please dont hesitate to message below, and I will respond promptly. </h2>
             
             
-            <div id="contact-form-container">
-                <div id="contact-container">
-                    
-                    <form action="" id="contact-form">
+            
+            <div class="project-container">
+                <h1 class="project-item-header"> Hero Tracker</h1>
+                
+                <div class="project-container-2">
+                    <p class="project-text" id="hero-tracker-text">  
+                        Hero Tracker – A web application that helps users track and improve daily skills or habits.<br> <br>
+                        Technologies: HTML, CSS, JavaScript, Git/GitHub<br><br>
+                        What it does: <br>
                         
-                        <div id="input-container">
-                            <label for="" class="form-input-labels" id="name-label">Name</label>
-                            <input type="text" id="name" class="form-input" placeholder="Jane Doe"> 
-                            
-                            <label for="" class="form-input-labels" id="email-label" >Email</label>
-                            <input type="text"   id="email" class="form-input" placeholder="something@example.com">
-                            
-                            <label for="" class="form-input-labels" id="message-label">Message</label>
-                            <textarea type="text" id="message" class="form-input" cols="7"  placeholder="Enter your message"></textarea>
-                            <button id="contact-submit-btn" class="form-input">Submit</button>
+                        Allows users to add, edit, and manage tasks for personal growth and skill improvement<br>
+                        
+                        Provides a flexible interface for tracking progress across multiple activities<br>
+                        
+                        Features a responsive, multi-page layout (Home, Tracker, About) <br> <br>
+                        Lessons Learned:<br>
+                        
+                        Improved skills in structuring a multi-page web app with consistent layouts<br>
+                        
+                        Strengthened ability to design responsive interfaces with clean containers, spacing, and interactive elements</p>
+                        
+                        
+                        <div class="project-card-container"><!--Image Card-->
+                            <img  class="project-card" id="hero-tracker-img" src="assets\Screenshot 2025-09-05 074908.png" alt="">
+                            <a href="https://xscape24.github.io/HeroTracker/">
+                                <button class="project-link-btn">Visit Project</button>
+                            </a>
                         </div>
+
+
                         
-                        
-                    </form>
+                    </div>
                 </div>
-            </div>
-        </section>
-        
-        
-        
-        <!--Footer (Social Media Links) -->
-        <footer id="footer">
-            <div id="footer-container">
+
+
+ <div class="project-container">
+                <h1 class="project-item-header"> Remanned</h1>
                 
-                <p id="footer-text">© 2025, Built with ❤️ by Eben Nduwimana</p>
-                
-                
-                <a href="https://www.linkedin.com/in/eben-nduwimana/">
-                    <img src="assets\hd-linkedin-square-black-icon-transparent-background-7017516949739946gsykkwdmd (1).png" id="linkedn-icon" class="contact-badge"  alt="">
-                </a>
-                <a href="https://github.com/xscape24">
-                    <img src="assets\icons8-github-30.png" id="github-icon" class="contact-badge" alt="">
-                </a>
-                
-                <a href="https://github.com/xscape24">
-                    <img src="assets\images.png" id="twitter-icon" class="contact-badge" alt="">
-                </a>
-            </div>
+                <div class="project-container-2">
+                    <p class="project-text" id="remanned-text">  
+                         Remanned - A web-based MVP designed to support behavioral growth for justice-involved users. <br><br>
+                        Technologies: React, Node.js, Express, MongoDB, Chart.js, Marvel 
+<br>
+<br>
+Key Features: <br>
+
+User registration and secure login <br>
+
+Gamified journaling with SQ/AQ/MQ scoring <br>
+
+Visual progress dashboard with charts and achievement badges <br> <br>
+
+
+Lessons Learned:  <br>
+
+Built a secure, full-stack web application with authentication and database integration
+
+<br>
+Applied gamification and behavioral science to software design. <br>
+
+
+Collaborated with a professional sponsor and implemented feedback. </p>
+                        
+                        
+                        <div class="project-card-container" id="remanned-project-card-container"><!--Image Card-->
+                            <img  class="project-card" id="remanned-img" src="assets\Picture2.png" alt="">
+                            <a href="https://marvelapp.com/prototype/ag9b29d">
+                                <button class="project-link-btn">Visit Project</button>
+                            </a>
+                        </div>
+
+
+                        
+                    </div>
+                </div>
+
+
+
+
+
+
+
+            </section>
             
-        </footer>
-        
-        <!--End of Footer-->
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    </body>
-    </html> 
+            
+            
+            
+            
+            <section id="contacts-section">
+                <h1 class="headings" id="contact-header">Contact</h1>
+                <h2 class="section-subheader" id="contact-subheader">Please dont hesitate to message below, and I will respond promptly. </h2>
+                
+                
+                <div id="contact-form-container">
+                    <div id="contact-container">
+                        
+                        <form action="" id="contact-form">
+                            
+                            <div id="input-container">
+                                <div id="name-container">
+                                     <label for="" class="form-input-labels" id="name-label">Name</label>
+                                <input type="text" id="name" class="form-input" placeholder="Jane Doe">
+                                </div>
+                              
+                                 <div id="email-container">
+                                <label for="" class="form-input-labels" id="email-label" >Email</label>
+                                <input type="text"   id="email" class="form-input" placeholder="something@example.com">
+                                </div>
+                                 <div id="message-container">
+                                <label for="" class="form-input-labels" id="message-label">Message</label>
+                                <textarea type="text" id="message" class="form-input" cols="7"  placeholder="Enter your message"></textarea>
+                                <button id="contact-submit-btn" class="form-input">Submit</button>
+                                        </div>
+
+
+
+                            </div>
+                            
+                            
+                        </form>
+                    </div>
+                </div>
+            </section>
+            
+            
+            
+            
+            <footer id="footer">
+                <div id="footer-container">
+                    <p id="footer-text">© 2025, Built with ❤️ by Eben Nduwimana</p>
+                    
+                    <div id="social-media-container">
+
+                      <a href="assets\5296501_linkedin_network_linkedin logo_icon.png"id="linkedin-icon" class="fa fa-linkedin"></a>
+                       <a href="https://www.linkedin.com/in/eben-nduwimana/" class="fa fa-github"  id="github-icon" class="contact-badge"></a>
+                       <a href="https://www.linkedin.com/in/eben-nduwimana/" class="fa fa-twitter"  id="twitter-icon" class="contact-badge"></a>
+
+                    
+                  
+                   
+
+</div>
+                    </div>
+                   
+                </div>
+                
+            </footer>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </body>
+        </html> 
