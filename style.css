@@ -350,7 +350,7 @@ body{
     
 }
 
-#hero-tracker-text{
+#cozy-room-text{
     font-size:1.1vw;
     
     margin-top:1.8vh;
@@ -361,9 +361,9 @@ body{
     
 }
 
-#hero-tracker-img{
-    height:65%;
-    width:93%;
+#cozy-room-img{
+    height:66%;
+    width:96%;
     margin:1vh 2vw 2vh 2vw;
     border:0.4vw solid black;
     
