@@ -363,7 +363,7 @@ body{
 
 #cozy-room-img{
     height:66%;
-    width:96%;
+    width:94%;
     margin:1vh 2vw 2vh 2vw;
     border:0.4vw solid black;
     
@@ -380,9 +380,9 @@ body{
 }
 
 #remanned-img{
-    height:70%;
-    width:88%;
-    margin:3vh 2vw 2vh 2vw;
+    height:66%;
+    width:90%;
+    margin:2vh 2vw 2.7vh 2vw;
     border:0.3vw solid rgb(255, 255, 255);
 }
 
@@ -426,9 +426,9 @@ body{
     display: flex;
     flex-direction: column;
     width: 80%;
-    height:78vh;
-    background-color:rgb(217, 109, 170);
-    border:2vh solid black;
+    height:78vh; 
+    background-color: rgb(184, 108, 151);
+       border:2vh solid black;
     margin:auto;
     margin-bottom:3vh;
     color:black;
@@ -448,11 +448,11 @@ body{
 
 
 #meditation-now-img{
-    height:70%;
-    width:96%;
+    height:65%;
+    width:93%;
     
     border:0.5vw solid black;
-    margin:0vh 2vw 1vh 2vw;/*top and bottom*/
+    margin:0.4vh 2vw 3vh 2vw;/*top and bottom*/
 }
 
 
@@ -537,10 +537,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(51, 48, 48);
+    background-color:rgb(51, 48, 48);;
     border:1vh solid black;
     border-radius:1vw;
-    width:80vw;
+    width:75vw;
     height:80vh;
     
     
@@ -616,7 +616,7 @@ body{
     color:rgb(255, 248, 248);
     font-weight:600;
     
-    
+    margin-bottom:0.5vh;
     margin:auto;
     margin-top:0.5vh;
     justify-content: center;
@@ -636,14 +636,15 @@ body{
     
 }
 #name-label{
-    
+    margin-bottom:0.3vh;
     
 }
 #email-label{
+     margin-bottom:0.3vh;
     
 }
 #subject-label{
-    
+     margin-bottom:1vh;
     
 }
 #message-label{
@@ -676,27 +677,31 @@ body{
 }
 
 #message::placeholder{
-    padding-top:1vh;
+    padding-top:1.2vh;
     font-size:1.3vw;
     font-family:Arial;
     
 }
 
 input ::placeholder{
+
     font-size: 2vw;
-    
+     
 }
 
 #name::placeholder{
     font-size: 1.2vw;
+    padding-top:3vh;
 }
 
 #email::placeholder{
     font-size: 1.2vw;
+    padding-top:3vh;
     
 }
 #subject::placeholder{
     font-size: 1.2vw;
+    padding-top:1.2vh;
 }
 
 
