@@ -56,6 +56,7 @@ body{
     width:6vw;
     border:0.2vw solid white;
     margin:0.5vw;
+    font-size:0.7vw;
 }
 
 #sql-server-btn{
@@ -260,10 +261,11 @@ body{
 #about-me-container{
     
     margin-bottom:15vh;
-    
+    margin-top:4vh;
     display:flex;
     justify-content: center;
     align-items: center;
+
     flex-direction:column;
 }
 #about-me-header{
@@ -350,7 +352,7 @@ body{
     
 }
 
-#cozy-room-text{
+#hq-text{
     font-size:1.1vw;
     
     margin-top:1.8vh;
@@ -361,7 +363,7 @@ body{
     
 }
 
-#cozy-room-img{
+#hq-img{
     height:66%;
     width:94%;
     margin:1vh 2vw 2vh 2vw;
@@ -389,6 +391,28 @@ body{
 #remanned-project-card-container{
     height:60vh;
 }
+
+#supermarket-text{
+    font-size:1.1vw;
+    
+    margin-top:1.8vh;
+    font-weight: bold;
+    font-style: normal;
+    word-wrap:break-word;
+    line-height:1.6;
+}
+
+#supermarket-img{
+    height:66%;
+    width:88%;
+    margin:2vh 2vw 2.7vh 2vw;
+    border:0.3vw solid rgb(0, 0, 0);
+}
+
+#supermarket-project-card-container{
+    height:60vh;
+}
+
 
 
 
@@ -491,13 +515,14 @@ body{
 
 .project-link-btn{
     border:0.16vw solid black;
+
     height:7vh;
     width:12vw;
     font-size:1.04vw;
     font-weight:bold;
     border-radius:0.8vw;
-    background-color: rgb(47, 60, 60);
-    color:rgb(202, 230, 79);
+    background-color: rgb(43, 48, 48);
+    color:rgb(213, 194, 147);
     text-transform:uppercase;
     cursor: pointer;
     margin:2vh 0 2.2vh  0;/*Top , Bottom */ /*4 numbers-top right bottom left (clockwise)*/
@@ -611,11 +636,11 @@ body{
 
 
 .form-input-labels{
-    font-size:1.3vw;
+  
     
     color:rgb(255, 248, 248);
     font-weight:600;
-    
+    font-size:1.3vw;
     margin-bottom:0.5vh;
     margin:auto;
     margin-top:0.5vh;
@@ -636,10 +661,14 @@ body{
     
 }
 #name-label{
+    margin-top:0.3vh;
     margin-bottom:0.3vh;
+    font-size:1.5vw;
     
 }
 #email-label{
+        margin-top:0.3vh;
+  font-size:1.4vw;
      margin-bottom:0.3vh;
     
 }
@@ -650,13 +679,12 @@ body{
 #message-label{
     margin-bottom:1vh;
     text-align:left;
-    
+        font-size:1.3vw;
     
 }
 
 #name{ width:30vw;
     height:6vh;
-    
 }
 #email{
     width:30vw;
@@ -691,7 +719,7 @@ input ::placeholder{
 
 #name::placeholder{
     font-size: 1.2vw;
-    padding-top:3vh;
+ 
 }
 
 #email::placeholder{
@@ -718,14 +746,14 @@ input ::placeholder{
     font-stretch:expanded;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:black;
-    width:16vw;
-    height:6.1vh;
+    width:15vw;
+    height:6.4vh;
     font-weight: 500;
-    background-color: #4c96ce;
-    border:.05vw solid rgb(0, 0, 0);
+    background-color: #4a7fa8;
+    border:.1vw solid rgb(0, 0, 0);
     
     margin-top:1vh;
-    padding-bottom:0.3vh;
+    padding-bottom:0.4vh;
     cursor:pointer;
     
 }
