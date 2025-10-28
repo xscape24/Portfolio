@@ -596,7 +596,8 @@ body{
 }
 
 .form-input::placeholder{
-    padding-top:20vh;
+   
+    margin-top:2vh;
     
 }
 
@@ -604,6 +605,7 @@ body{
     display: flex;
     gap:20vh;
     flex-direction:row;
+    margin-top:2vh;
 }
 
 
@@ -627,6 +629,7 @@ body{
     height:10vh;
     display:flex;
     justify-content: center;
+   
     text-align:center;
     margin:auto;
     border:0.05vw solid black;
@@ -662,14 +665,14 @@ body{
 }
 #name-label{
     margin-top:0.3vh;
-    margin-bottom:0.3vh;
+    margin-bottom:0.8vh;
     font-size:1.5vw;
     
 }
 #email-label{
         margin-top:0.3vh;
   font-size:1.4vw;
-     margin-bottom:0.3vh;
+     margin-bottom:0.8vh;
     
 }
 #subject-label{
@@ -703,19 +706,11 @@ body{
     margin-bottom:4vh;
     
 }
+.form-input::placeholder{
 
-#message::placeholder{
-    padding-top:1.2vh;
-    font-size:1.3vw;
-    font-family:Arial;
-    
+   padding-top:2vh;
 }
 
-input ::placeholder{
-
-    font-size: 2vw;
-     
-}
 
 #name::placeholder{
     font-size: 1.2vw;
@@ -731,6 +726,14 @@ input ::placeholder{
     font-size: 1.2vw;
     padding-top:1.2vh;
 }
+
+#message::placeholder{
+    padding-top:1.2vh;
+    font-size:1.3vw;
+    font-family:Arial;
+    
+}
+
 
 
 
