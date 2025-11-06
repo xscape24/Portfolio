@@ -329,9 +329,15 @@ body{
     font-size:5vh;
     text-align:center;
     margin-top:2vh;
-    margin-bottom:2vh;
+
 }
 
+.project-item-subheader{
+    font-size:3vh;
+      text-align:center;
+      font-weight:bold;
+    
+}
 
 
 
@@ -403,7 +409,7 @@ body{
 }
 
 #supermarket-img{
-    height:66%;
+    height:64%;
     width:88%;
     margin:2vh 2vw 2.7vh 2vw;
     border:0.3vw solid rgb(0, 0, 0);
