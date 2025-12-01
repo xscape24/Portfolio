@@ -36,6 +36,7 @@ Displays my main software projects, each with:
 - Technologies used  
 - GitHub link  
 - Screenshot or preview  
+<img width="1902" height="850" alt="image" src="https://github.com/user-attachments/assets/3da2c4b0-98c0-4975-8e51-d6bf783508f0" />
 
 ### **About Page**
 Contains my background, education, interests, and CS journey.
