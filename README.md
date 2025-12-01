@@ -3,6 +3,8 @@
 This is my personal software engineering portfolio, built to showcase my projects, skills, and ongoing work as a CS major and software developer.  
 The site serves as a central hub for viewing my projects, accessing my resume, and learning about my background.
 
+<img width="1905" height="856" alt="image" src="https://github.com/user-attachments/assets/3c3da210-36c7-45e9-b09b-431a022c58b3" />
+
 ---
 
 ## ⭐ Features
