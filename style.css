@@ -599,13 +599,11 @@ body{
     flex-direction:column;
     justify-content: center;
     align-items:center;
+    text-align:center;
 }
 
-.form-input::placeholder{
-   
-    margin-top:2vh;
-    
-}
+
+
 
 #name-email-container{
     display: flex;
@@ -634,8 +632,6 @@ body{
     width:13vw;
     height:10vh;
     display:flex;
-    justify-content: center;
-   
     text-align:center;
     margin:auto;
     border:0.05vw solid black;
@@ -662,8 +658,7 @@ body{
 
 #input-container{
     margin-top:2vh;
-    height:auto;
-    
+
     
     
     
@@ -694,6 +689,7 @@ body{
 
 #name{ width:30vw;
     height:6vh;
+    margin:auto;
 }
 #email{
     width:30vw;
@@ -703,8 +699,11 @@ body{
 #subject{
     width:70vw;
     height:6vh;
+    padding-bottom:0;
     margin-bottom:2vh;
 }
+
+
 #message{
     height:30vh;
     width:70vw;
@@ -713,13 +712,17 @@ body{
     
 }
 .form-input::placeholder{
+    text-align:center;
 
-   padding-top:2vh;
 }
 
 
 #name::placeholder{
     font-size: 1.2vw;
+    padding-bottom:0;
+    margin-bottom:0;
+    margin-top:5vh;
+    padding-top:5vh;
  
 }
 
